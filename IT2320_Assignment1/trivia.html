@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="main.css">
+	<script src="js/trivia.js"></script>
+</head>
+<body>
+<header>
+<h1>Star Trek</h1>
+<nav id="nav_menu">
+	<ul id="menu">
+		<li><a href="index.html" class="current">Home</a></li>
+		<li><a href="fun_facts.html">Fun Facts</a></li>
+		<li><a href="trivia.html">Trivia</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+	</ul>
+</nav>
+</header>
+<main>
+<img class="logo" src="images/st_logo.png" alt="star trek logo" height="50px" width="50px">
+<h2>Trivia</h2>
+<section>
+<p class="answer1">What was the name of the first<br> captain seen on the U.S.S Enterprise?<br>
+<button  class="button" type="button" onclick="trivia1()">Answer</button>
+</p>
+<p class="answer2">Who talked Nichelle Nichols <br>(Lt. Uhura) out of leaving Star Trek?<br>
+<button  class="button"  type="button" onclick="trivia1b()">Answer</button>
+</p>
+<p class="answer3">Who kept the Orginal Series from<br> being cancelled during the first season?<br>
+<button  class="button"  type="button" onclick="trivia1c()">Answer</button>
+</p>
+<p class="trivia2">In what year did the first episode of Star Trek the Orginal Series air?</p>
+		<button  class="button1"  type="button" onclick="trivia2('Incorrect! Try again.')">1964</button>
+		<button  class="button1"  type="button" onclick="trivia2('Correct!')">1966</button>
+		<button  class="button1"  type="button" onclick="trivia2('Incorrect! Try again.')">1968</button>
+<p class="trivia2">How many different series does the Star Trek franchise contain?</p>
+		<button  class="button1"  type="button" onclick="trivia2('Incorrect! Try again.')">11</button>
+		<button  class="button1"  type="button" onclick="trivia2('Incorrect! Try again.')">5</button>
+		<button  class="button1"  type="button" onclick="trivia2('Correct!')">6</button>
+<p class="trivia2">What is the (popular belief) reason for "red-shirts" on the show?</p>
+	<button  class="button1"  type="button" onclick="trivia2('Correct!')">Security officers who die to demonstrate the danger of the situations in the show</button>
+	<button  class="button1"  type="button" onclick="trivia2('Incorrect! Try again.')">Low ranking crew members who serve the rest of the crew</button>
+	<button  class="button1"  type="button" onclick="trivia2('Incorrect! Try again.')">There is no reason, some people just wear red uniforms</button>
+</section>
+</main>
+</body>
+</html>
